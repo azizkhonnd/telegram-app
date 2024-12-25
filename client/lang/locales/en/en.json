@@ -1,0 +1,12 @@
+{
+  "Language" : "Language",
+  "SignUpWith": "Sign up with",
+  "Google": "Google",
+  "Github": "Github",
+  "chat": {
+    "placeholder": {
+      "message": "Type a message"
+    }
+  }
+}
+
