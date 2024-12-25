@@ -4,7 +4,6 @@ import InformationForm from '@/components/forms/information.form'
 import NotificationForm from '@/components/forms/notification.form'
 import LanguageSwitcher from '@/components/language-switcher/language.switcher'
 import PaymentForm from '@/components/premium-component/payment'
-import PremiumComponent from '@/components/premium-component/premium.component'
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion'
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar'
 import { Button } from '@/components/ui/button'
@@ -52,7 +51,6 @@ const Settings = () => {
 				<PopoverContent className='p-0 w-80'>
 					<h2 className='pt-2 pl-2 text-muted-foreground text-sm flex items-center gap-1'>
 					       {t("Settings")}: <span className='text-white'>{session?.currentUser?.email?.split('@')[0]}</span>
-						   {session?.currentUser?.status === 'premium' && <PremiumComponent />}
 					</h2>
 					<Separator className='my-2' />
 					<div className='flex flex-col'>
